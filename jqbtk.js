@@ -155,6 +155,7 @@
                     keyboardShift = false;
             }
             parent.val(currentContent);
+            parent.change();
             keyboardShiftify();
             parent.focus();
         };
